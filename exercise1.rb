@@ -10,6 +10,12 @@ def letter_grade(percentage)
     "You got A-"
   elsif percentage >= 60.0
     "You got B+"
+  elsif percentage > 50.0
+    "You got B"
+  elsif percentage <= 50.0
+    "You got C"
   end
 
 end
+
+puts letter_grade(percentage)
